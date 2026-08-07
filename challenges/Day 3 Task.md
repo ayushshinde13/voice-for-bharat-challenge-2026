@@ -1,53 +1,52 @@
-# Day 3 – Build Your Agent's Interface
+# Day 3 – Personalise Your Agent's Frontend
 
-Until now, you were working with the frontend given in the starter repo. Today you'll design your own frontend. 
+Your voice agent can now talk, follow a role, and stay within its limits. Today, you will work on what the user sees and uses.
 
-This is also the last day you can freely change tracks.
+You can **personalise the frontend from the starter repo** or **build a new frontend**. Make it suitable for the track you chose and the product you are building. For example, a farming assistant and a children's learning assistant should not look or feel the same.
 
+Day 3 is also the last day to change your track. After today, continue with the same track because the next tasks will build on this work.
 
-For Day 3, your objective is to build an interface. 
+For Day 3, your objective is to:
 
-- **Step 1: Build a frontend** for your agent. Design your UI to match your agent's persona or use-case.
+- **Step 1: Build or personalise your frontend.** Use colours, text, buttons, images, and layouts that suit your agent's purpose and users. Keep the interface simple and easy to use.
 
-- **Step 2: Build the five states of the agent:**
+- **Step 2: Show these five agent states clearly:**
+  - **Ready** — the agent has not started yet; show one clear button to begin
+  - **Connecting** — the agent is joining the call; tell the user to wait
+  - **Listening** — the agent is listening to the user
+  - **Speaking** — the agent is replying to the user
+  - **Call ended** — the conversation is over; show an option to start again
 
-  - **Idle** — a single obvious button to start
-  - **Connecting** — something is happening, don't press again
-  - **Listening** — to show that the agent is hearing you
-  - **Talking** — for when the agent is talking back
-  - **Ended** — the call is over, and you can start another
+- **Step 3: Make it clear who is speaking.** You can use a volume bar, waveform, animation, or simple text such as "Listening to you" and "Agent is speaking".
 
-- **Step 3: Show who's speaking.** A volume meter, a waveform, or a simple "listening / speaking" indicator. 
+- **Step 4: Handle microphone permission errors.** If the user blocks microphone access, show a clear message explaining what happened and how to enable the microphone.
 
-- **Step 4: Handle mic permission denial.** Say what went wrong and what to do about it. 
+- **Step 5: Test the complete flow** from your frontend: open the page, connect to the agent, have a short conversation, end the call, and start again.
 
-- **Step 5: Successfully connect to your agent** through your own web interface.
+- **Step 6: (Optional) Check the frontend on a phone screen.** The important text and buttons should be easy to read and tap.
 
-- **Step 6: Record a short video** of the full flow — page load, connect, conversation, end.
+- **Step 7: Record a short video** showing the full flow: page load, connection, conversation, and call ending. Also show how the frontend matches your chosen track or product.
 
-- **Step 7: Post the video on LinkedIn** with a description of what you built on Day 3. Mention that you're building a voice agent using the fastest TTS API — **Murf Falcon**. Mention that you're part of **10 Days of Voice Agents** and don't forget to tag the official **Murf AI** handle. Also use the hashtag **#VoiceForBharat**.
+- **Step 8: Post the video on LinkedIn** with a description of what you built on Day 3. Mention that you're building a voice agent using the fastest TTS API — **Murf Falcon**. Mention that you're part of **10 Days of Voice Agents** and don't forget to tag the official **Murf AI** handle. Also use the hashtag **#VoiceForBharat**.
 
-- **Step 8: Submit your post link on the submission form shared on Discord.**
-  
+- **Step 9: Submit your post link** using the submission form shared on Discord.
 
 ## Advanced (Optional)
 
-You only need the steps above to complete Day 3. These are for going the extra mile:
+You only need the steps above to complete Day 3. Try these if you want to do more:
 
-- **Live transcript.** Stream the conversation to the screen as text.
-- **Build it in your user's language.** If your agent speaks Hindi, make your frontend use Hindi as well.
-- **Low-bandwidth mode.** Test on a throttled connection and see what breaks. 
-
+- **Live transcript.** Show the conversation on the screen as text while the user and agent speak.
+- **Use your user's language.** If your target users speak Hindi, Tamil, Bengali, or another Indian language, use that language in the frontend too.
+- **Low-bandwidth support.** Test the frontend on a slow internet connection. Show useful loading and error messages if something fails.
 
 ### You've finished Day 3 if:
 
-- The UI is tailored to your agent's persona or use-case
-- The UI makes clear when the agent is listening versus speak
-- It's usable on a phone screen
-- Denying mic permission produces a readable message
+- Your frontend matches your chosen track or product
+- It clearly shows when the agent is connecting, listening, speaking, or disconnected
+- It shows a clear and helpful message when microphone permission is denied
+- You can complete a full conversation through the frontend
 
-Once your agent is running, your LinkedIn post is live and your form submission is in, you've completed Day 3.
-
+Once your agent is working, your LinkedIn post is live, and your form submission is complete, you've finished Day 3.
 
 ## Resources
 
