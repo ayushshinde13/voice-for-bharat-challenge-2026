@@ -1,6 +1,6 @@
 # Outbound calls over Linphone
 
-If your Twilio free trial is exhausted, you can try to use [Linphone](https://linphone.org) to make outbound calls.
+If your Twilio free trial is exhausted, you can try to use [Linphone](https://www.linphone.org/en/) to make outbound calls.
 
 ## Steps
 

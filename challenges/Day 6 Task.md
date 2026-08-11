@@ -2,6 +2,8 @@
 
 Yesterday your agent waited to be called over the browser. Today, it will be making outbound calls.
 
+> IMPORTANT: You need a telephony service like Twilio to make outbound calls. If your Twilio free trial is exhausted, you can use [Linphone](https://linphone.org/en/) to make outbound calls. See the [supplementary material](../supplementary/outbound-over-linphone.md) for more details.
+
 For Day 6, your objective is to:
 
 - **Step 1: Find the outbound use case for your track.**
