@@ -59,6 +59,8 @@ Once your agent handoff is working, your LinkedIn post is live, and your form su
 
 ## Resources
 
+- [Agent Handoff Example Project](https://github.com/murf-ai/murf-livekit-starter/tree/agent-handoff)
+- [Agent Handoff Example Project Instructions](https://github.com/murf-ai/murf-livekit-starter/tree/agent-handoff/backend#agent-handoff)
 - [LiveKit Agents and Handoffs](https://docs.livekit.io/agents/logic/agents-handoffs/)
 - [LiveKit Multi-Agent Python Example](https://github.com/livekit-examples/multi-agent-python)
 - [LiveKit Tools](https://docs.livekit.io/agents/logic/tools/)
